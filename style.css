@@ -263,7 +263,7 @@ nav .menu {
 #hardwear-container .heardwear-box-bottom>div .count-box {
     position: absolute;
     width: 13rem;
-    height: 6rem;
+    height: 8rem;
     background: rgba(255, 255, 255, 0.596);
     backdrop-filter: blur(10px);
     right: 0;
@@ -279,6 +279,7 @@ nav .menu {
     font-size: 80px;
     font-weight: 900;
     color: #008BC5;
+    line-height: 1;
 }
 
 #hardwear-container .heardwear-box-bottom>div h2 {
