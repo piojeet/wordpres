@@ -1785,6 +1785,10 @@ row-gap: 1.5rem;
         height: 100%;
         object-fit: contain;
     }
+
+    footer .top form .success {
+        bottom: 97%;
+    }
 }
 
 
@@ -1799,4 +1803,143 @@ row-gap: 1.5rem;
     #hero-section .hero-container {
         top: 7em;
     }
+}
+
+
+
+/* *********************** */
+.right-up {
+    transform: translateX(205%);
+    transition: 1s ease;
+}
+
+.rightelements {
+    transform: translateX(0);
+}
+
+.bottom-up {
+    opacity: 0;
+    transform: translateY(30%);
+    transition: 1s ease;
+}
+
+.bottomelements {
+    opacity: 1;
+    transform: translateY(0);
+}
+  
+
+.right-up-in {
+    transform: translateX(110%);
+    transition: 1s ease;
+}
+
+.rightelementsin {
+    transform: translateX(0);
+}
+
+.left-up-in {
+    transform: translateX(-110%);
+    transition: 1s ease;
+}
+
+.leftelementsin {
+    transform: translateX(0);
+}
+
+.right-in {
+    transform: translateX(110%);
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.rightelementsins {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.elementsinbottom {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.bottomup {
+    transform: translateY(30%);
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.bottomupelementsins {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.mejor-flex {
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.mejorflexmelements {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.bottomelementsd {
+    transform: translateY(60%);
+    transition: all 1s ease;
+}
+
+.bottomelementsdelements {
+    transform: translateY(0);
+}
+
+.right-coast {
+    transform: translateX(70%);
+    transition: 1s ease;
+}
+
+.coasrelementsins {
+    transform: translateX(0);
+}
+
+.left-coast {
+    transform: translateX(-70%);
+    transition: 1s ease;
+    z-index: -1;
+}
+
+.coaslelementsins {
+    transform: translateX(0);
+}
+
+.leftelementsd {
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.leftelementsdelements {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.bottomupin {
+    transform: translateY(100%);
+    transition: all 1s ease;
+    z-index: -1;
+    transition-delay: 1s;
+}
+
+.bottomupinelementsins {
+    transform: translateY(0);
+}
+
+.allop {
+    opacity: 0;
+    transition: .30s all ease;
+}
+
+.allopelementsins {
+    opacity: 1;
 }
