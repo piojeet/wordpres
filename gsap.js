@@ -308,6 +308,17 @@ function addTopElementClass() {
         });
 
 
+        let elementstfetl2 = document.querySelectorAll(".right-play");
+        elementstfetl2.forEach((element) => {
+            let elementTop = element.getBoundingClientRect().top;
+            let windowHeight = window.innerHeight;
+    
+            if (elementTop <= windowHeight * 0.99 && elementTop >= 10) {
+                element.classList.add("rightplayelementsins");
+            }
+        });
+
+
         let elementstfeop = document.querySelectorAll(".allop");
         elementstfeop.forEach((element) => {
             let elementTop = element.getBoundingClientRect().top;
